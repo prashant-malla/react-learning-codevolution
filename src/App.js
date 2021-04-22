@@ -5,12 +5,14 @@ import './App.css';
 // import Counter from './components/Counter'
 // import FunctionClick from './components/functionClick';
 // import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
+// import EventBind from './components/EventBind';
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <Form />
+      {/* <EventBind /> */}
       {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
       {/* <Counter></Counter> */}
