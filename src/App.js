@@ -1,5 +1,5 @@
 import './App.css';
-import Inline from './components/Inline';
+// import Inline from './components/Inline';
 // import Stylesheet from './components/Stylesheet';
 // import Hello from './components/Hello'
 // import Greet from './components/Greet'
@@ -8,12 +8,16 @@ import Inline from './components/Inline';
 // import FunctionClick from './components/functionClick';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
-import Form from './components/Form'
+// import Form from './components/Form'
+import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table'
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Table />
+      <FragmentDemo />
+      {/* <Form /> */}
       {/*<Inline />
        <Stylesheet /> */}
       {/* <EventBind /> */}
