@@ -8,12 +8,14 @@ import Inline from './components/Inline';
 // import FunctionClick from './components/functionClick';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-      <Inline />
-      {/* <Stylesheet /> */}
+      <Form />
+      {/*<Inline />
+       <Stylesheet /> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
