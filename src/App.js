@@ -1,16 +1,20 @@
 import './App.css';
+import Inline from './components/Inline';
+// import Stylesheet from './components/Stylesheet';
 // import Hello from './components/Hello'
 // import Greet from './components/Greet'
 // import Message from './components/Message'
 // import Counter from './components/Counter'
 // import FunctionClick from './components/functionClick';
 // import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
+// import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <Inline />
+      {/* <Stylesheet /> */}
+      {/* <EventBind /> */}
       {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
       {/* <Counter></Counter> */}
